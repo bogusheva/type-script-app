@@ -1,0 +1,92 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 20px;
+}
+label {
+  display: inline-block;
+  text-align: left;
+  padding-right: 25px;
+  width: 130px;
+}
+input[type="text"],
+input[type="date"],
+select {
+  margin-top: 10px;
+  width: 170px;
+  height: 25px;
+  text-indent: 10px;
+  border: 1px solid #444;
+  border-radius: 5px;
+  display: inline;
+}
+input[type="checkbox"] {
+  margin-top: 10px;
+}
+fieldset {
+  width: 370px;
+  margin: 5px 0;
+}
+input[type="checkbox"],
+input[type="radio"],
+input[type="submit"] {
+  margin-right: 1rem;
+}
+
+textarea {
+  margin-bottom: 10px;
+  border: 1px solid #444;
+  border-radius: 5px;
+  display: block;
+  width: 370px;
+}
+.error {
+  border: 2px solid red;
+}
+.console-screen {
+  background-color: rgb(206, 204, 204);
+  color: black;
+}
+p {
+  margin: 0;
+  font-weight: 400;
+  line-height: 18px;
+  color: red;
+}
+.button-block {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.btn-submit {
+  display: block;
+  background-color: rgb(60, 60, 235);
+  color: aliceblue;
+  padding: 5px 15px;
+  border-radius: 6px;
+}
+.btn-reset {
+  display: block;
+  background-color: rgb(206, 204, 204);
+  color: black;
+  border-radius: 6px;
+  padding: 5px 15px;
+}
+.experience-block {
+  display: flex;
+  flex-wrap: wrap;
+}
+.english-block {
+  display: grid;
+  grid-template-columns: repeat(6, 4fr);
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
