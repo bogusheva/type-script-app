@@ -1,11 +1,8 @@
 import React, { useState } from "react";
 import "./Form.css";
+import { Candidate } from "../types";
 
-interface InirtialState {
-  framework: string[];
-}
-
-const initialState: InirtialState = {
+const initialState: Candidate = {
   id: "",
   date: "",
   firstName: "",
@@ -19,7 +16,7 @@ const initialState: InirtialState = {
   experience: "none",
   education: "self-study",
   english: "A1",
-  notes: "",
+  notes: " ",
 };
 
 const initialStatePropForm = {
@@ -127,7 +124,7 @@ function Form() {
     }
   }
 
-  function handleChange(event) {
+  function handleChange(event: any) {
     setPropForm((prevForm) => {
       return {
         ...prevForm,
@@ -165,7 +162,7 @@ function Form() {
     }
   }
 
-  function SubmitForm(e) {
+  function SubmitForm(e: any) {
     e.preventDefault();
     if (
       propForm.firstNameValidated &&
@@ -180,11 +177,11 @@ function Form() {
       alert("You should fix mistakes");
     }
   }
-  function handleClear(e) {
+  function handleClear(e: any) {
     setForm(initialState);
     setPropForm(initialStatePropForm);
   }
-  const date = new Date();
+
   return (
     <div>
       <form className="form" onSubmit={SubmitForm}>
@@ -324,10 +321,12 @@ function Form() {
         </div>
         <div>
           <label htmlFor="JSSkill"> JS Skill</label>
+
           <input
             type="checkbox"
             id="JSSkill"
             name="JSSkill"
+            // @ts-ignore
             checked={form.JSSkill}
             onChange={handleChange}
           />
@@ -511,7 +510,9 @@ function Form() {
           <textarea
             name="notes"
             id="notes"
+            // @ts-ignore
             rows="4"
+            // @ts-ignore
             cols="30"
             placeholder="notes"
             value={form.notes}

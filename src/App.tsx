@@ -1,11 +1,12 @@
-import React from "react";
 import "./App.css";
-import { Table } from "./components/Table/Table";
+import TableContainer from "./components/TableContainer/TableContainer";
+import FormContainer from "./components/FormContainer/FormContainer";
 
 function App() {
   return (
     <div className="App">
-      <Table />
+      <TableContainer />
+      <FormContainer />
     </div>
   );
 }

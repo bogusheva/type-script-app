@@ -1,0 +1,8 @@
+.App {
+  display: grid;
+  grid-template-columns: 9fr 3fr;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid;
+  min-height: 100vh;
+}
