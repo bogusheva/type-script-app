@@ -162,6 +162,16 @@ function Form() {
     }
   }
 
+  function createListItem(form: any) {
+    fetch("http://localhost:3500/candidates", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify(form),
+    });
+  }
+
   function SubmitForm(e: any) {
     e.preventDefault();
     if (
@@ -172,7 +182,7 @@ function Form() {
       propForm.notesValidated
     ) {
       setForm(initialState);
-      console.log(form);
+      createListItem(form);
     } else {
       alert("You should fix mistakes");
     }
@@ -202,7 +212,6 @@ function Form() {
             type="date"
             id="date"
             name="date"
-            placeholder="12.02.2023"
             value={form.date}
             onChange={handleChange}
           />

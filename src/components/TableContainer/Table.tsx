@@ -32,9 +32,9 @@ export default function Table({ data }: TableProps) {
             <td>{item.lastName}</td>
             <td>{item.email}</td>
             <td>{item.phone}</td>
-            <td>{item.linkedIn}</td>
+            <td>www.linkedin.com/in/{item.linkedIn}</td>
             <td>{item.position}</td>
-            <td>{item.JSSkill}</td>
+            <td>{item.JSSkill ? "true" : "false"}</td>
             <td>{item.framework}</td>
             <td>{item.experience}</td>
             <td>{item.education}</td>

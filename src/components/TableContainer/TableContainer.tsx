@@ -5,7 +5,7 @@ import "./tableContainer.css";
 
 export default function TableContainer() {
   const { isLoading, error, data } = useFetch<Candidate[]>(
-    "http://localhost:3000/candidates"
+    "http://localhost:3500/candidates"
   );
   if (error) {
     console.log(error);
