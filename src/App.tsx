@@ -4,7 +4,7 @@ import FormContainer from "./components/FormContainer/FormContainer";
 
 function App() {
   return (
-    <div className="App">
+    <div className="body-container">
       <TableContainer />
       <FormContainer />
     </div>

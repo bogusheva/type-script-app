@@ -1,7 +1,6 @@
 {
   "candidates": [
     {
-      "id": 1,
       "date": "2023-02-01",
       "firstName": "Jane",
       "lastName": "Smith",
@@ -14,10 +13,10 @@
       "experience": "none",
       "education": "courses",
       "english": "B2",
-      "notes": "fast-learner, team-player"
+      "notes": "fast-learner, team-player",
+      "id": 1
     },
     {
-      "id": 2,
       "date": "2023-02-03",
       "firstName": "Leanne",
       "lastName": "Graham",
@@ -30,10 +29,10 @@
       "experience": "none",
       "education": "self-study",
       "english": "B2",
-      "notes": "goal-oriented, team-player"
+      "notes": "goal-oriented, team-player",
+      "id": 2
     },
     {
-      "id": 3,
       "date": "2023-02-04",
       "firstName": "Ervin",
       "lastName": "Howell",
@@ -46,15 +45,15 @@
       "experience": "0-1 year",
       "education": "self-study",
       "english": "B1",
-      "notes": "sql, quick learner"
+      "notes": "sql, quick learner",
+      "id": 3
     },
     {
-      "id": 4,
       "date": "2023-02-06",
       "firstName": "Clementine",
       "lastName": "Bauch",
       "email": "Nathan@yesenia.net",
-      "phone": "38098142789",
+      "phone": "380981427889",
       "linkedIn": "cbauch",
       "position": "trainee",
       "JSSkill": true,
@@ -62,10 +61,10 @@
       "experience": "none",
       "education": "degree",
       "english": "B1",
-      "notes": "fast-learner, team-player"
+      "notes": "fast-learner, team-player",
+      "id": 4
     },
     {
-      "id": 5,
       "date": "2023-02-10",
       "firstName": "Chelsey",
       "lastName": "Dietrich",
@@ -78,10 +77,10 @@
       "experience": "0-1 year",
       "education": "self-study",
       "english": "A2",
-      "notes": "hard-working, goal-oriented"
+      "notes": "hard-working, goal-oriented",
+      "id": 5
     },
     {
-      "id": 6,
       "date": "2023-02-11",
       "firstName": "Kurtis",
       "lastName": "Weissnat",
@@ -94,10 +93,10 @@
       "experience": "0-1 year",
       "education": "courses",
       "english": "B2",
-      "notes": "fast-learner, team-player"
+      "notes": "fast-learner, team-player",
+      "id": 6
     },
     {
-      "id": 7,
       "date": "2023-02-15",
       "firstName": "Maxime",
       "lastName": "Nienow",
@@ -110,10 +109,10 @@
       "experience": "none",
       "education": "self-study",
       "english": "C1",
-      "notes": "team-player, C#"
+      "notes": "team-player, C#",
+      "id": 7
     },
     {
-      "id": 8,
       "date": "2023-02-21",
       "firstName": "Glenna",
       "lastName": "Reichert",
@@ -126,10 +125,10 @@
       "experience": "0-1 year",
       "education": "degree",
       "english": "B2",
-      "notes": "fast-learner, team-player"
+      "notes": "fast-learner, team-player",
+      "id": 8
     },
     {
-      "id": 9,
       "date": "2023-02-21",
       "firstName": "Leopoldo",
       "lastName": "Corkery",
@@ -142,7 +141,40 @@
       "experience": "none",
       "education": "self-study",
       "english": "C2",
-      "notes": "interesting"
+      "notes": "interesting",
+      "id": 9
+    },
+    {
+      "date": "2023-02-02",
+      "firstName": "Ivonna",
+      "lastName": "Ordit",
+      "email": "iorditf@gmail.com",
+      "phone": "380668967474",
+      "linkedIn": "gchckcgk",
+      "position": "trainee",
+      "JSSkill": true,
+      "framework": ["react"],
+      "experience": "0",
+      "education": "courses",
+      "english": "B2",
+      "notes": "good sense of gumor",
+      "id": 10
+    },
+    {
+      "date": "2023-03-14",
+      "firstName": "Edvina",
+      "lastName": "Jones",
+      "email": "ejones@gmail.com",
+      "phone": "380966879036",
+      "linkedIn": "ejones",
+      "position": "junior",
+      "JSSkill": true,
+      "framework": ["angular", "vue"],
+      "experience": "1-2 y>",
+      "education": "degree",
+      "english": "C1",
+      "notes": "communicative",
+      "id": 11
     }
   ]
 }

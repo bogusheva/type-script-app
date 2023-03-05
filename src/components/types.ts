@@ -1,5 +1,5 @@
 export interface Candidate {
-  id: string | number;
+  id: number;
   date: string;
   firstName: string;
   lastName: string;
@@ -7,10 +7,12 @@ export interface Candidate {
   phone: string;
   linkedIn: string;
   position: string;
-  JSSkill: boolean | string;
+  JSSkill: boolean;
   framework: string[];
   experience: string;
   education: string;
   english: string;
   notes: string;
 }
+
+export type CandidateData = Omit<Candidate, "id">;
